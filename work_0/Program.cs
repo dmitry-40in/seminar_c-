@@ -11,3 +11,13 @@ Console.WriteLine ("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
 Console.WriteLine($"Квадрат числа {number} = {square}");
+
+double d = default;
+string str = default;
+bool b = default;
+int num = default;
+
+// Console.WriteLine(d);
+// Console.WriteLine(str);
+// Console.WriteLine(b);
+// Console.WriteLine(num);
