@@ -13,7 +13,7 @@ if (number >= index)
 {
     
     Console.WriteLine();
-    Console.WriteLine("Все чётные числа от 1 до N: ");
+    Console.WriteLine($"Все чётные числа от 1 до {number}: ");
     while (index <= number)
     {
         Console.Write($"{index} ");
@@ -24,6 +24,6 @@ if (number >= index)
 else
 {
     Console.WriteLine();
-    Console.WriteLine("Чётных чисел от 1 до N не существует");
+    Console.WriteLine($"Положительных чётных чисел от 1 до {number} не существует");
     Console.WriteLine();
 }
