@@ -10,7 +10,7 @@ int number = Convert.ToInt32(Console.ReadLine()); //выбрал тип данн
 
 if (number % 2 == 0)
 {
-    Console.WriteLine("Это число чётное");
+    Console.WriteLine("Это число является чётным");
 }
 else
 {
