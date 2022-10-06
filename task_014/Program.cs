@@ -5,14 +5,24 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int num = number % 7;
-int num2 = number % 23;
+// int num = number % 7;
+// int num2 = number % 23;
 
-if (num == 0 && num2 == 0)
+// if (number % 7 == 0 && number % 23 == 0)
+// {
+//     Console.WriteLine("Да");
+// }
+// else
+// {
+//     Console.WriteLine("Нет");
+// }
+
+bool Check(int num)
 {
-    Console.WriteLine("Да");
+    return num % 7 == 0 && num % 23 == 0;
 }
-else
-{
-    Console.WriteLine("Нет");
-}
+
+bool result = Check(number);
+
+if (result) Console.WriteLine("Yes");
+else Console.WriteLine("No");
